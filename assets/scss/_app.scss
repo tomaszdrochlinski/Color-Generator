@@ -1,0 +1,56 @@
+#app {
+  background: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 20px;
+  height: 170px;
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  h1 {
+    font-weight: 400;
+    font-size: 3rem;
+  }
+
+  .display {
+    opacity: 100;
+    transition: 300ms opacity;
+  }
+
+  .panel {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+  }
+
+  .btn {
+    padding: 10px;
+    background: $color1;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5rem;
+
+    &.--blue {
+      background: $color2 !important;
+      width: 50px;
+    }
+
+    &:hover {
+      cursor: pointer;
+      filter: brightness(110%);
+    }
+
+    &:active {
+      filter: brightness(90%);
+    }
+  }
+
+  i {
+    font-size: 1.5rem;
+  }
+}
