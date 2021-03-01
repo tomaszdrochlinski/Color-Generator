@@ -7,11 +7,13 @@
 }
 
 body {
+  background: #0F111A;
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 200ms background;
 }
 
 #app {
@@ -29,7 +31,7 @@ body {
 
 #app h1 {
   font-weight: 400;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 #app .display {
